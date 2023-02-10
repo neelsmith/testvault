@@ -41,7 +41,7 @@ jobs:
           rm -rf raw_notes
           rm ./obsidian-export
           
-          mv content/notes/00\ Meta content/
+         
 
       - name: Build Link Index
         uses: aadimator/hugo-obsidian@v1.0.2
