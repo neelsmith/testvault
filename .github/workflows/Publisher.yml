@@ -40,7 +40,7 @@ jobs:
         run: |
           rm -rf raw_notes
           rm ./obsidian-export
-          mv content/notes/Index.md content/_index.md
+          
           mv content/notes/00\ Meta content/
 
       - name: Build Link Index
